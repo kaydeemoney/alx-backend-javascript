@@ -1,0 +1,20 @@
+{
+  "name": "0x01-es6_promise",
+  "version": "1.0.0",
+  "description": "this is my readme file for 0x01-ES6_promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.25.7",
+    "@babel/core": "^7.25.7",
+    "@babel/eslint-parser": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "eslint": "^9.12.0",
+    "jest": "^29.7.0"
+  }
+}
