@@ -1,0 +1,19 @@
+{
+  "name": "0x02-ES6_classes",
+  "version": "1.0.0",
+  "description": "ES6 Classes project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node",
+    "full-test": "eslint . && jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.0.0",
+    "babel-jest": "^27.0.0",
+    "eslint": "^8.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0"
+  }
+}
