@@ -1,13 +1,16 @@
-export function uploadPhoto() {
-  return Promise.resolve({
-    status: 200,
-    body: 'photo-profile-1',
-  });
-}
+const Utils = {
+  calculateNumber(type, a, b) {
+    if (type === 'SUM') {
+      return Math.round(a) + Math.round(b);
+    }
+    if (type === 'SUBTRACT') {
+      return Math.round(a) - Math.round(b);
+    }
+    if (type === 'DIVIDE') {
+      return Math.round(b) === 0 ? 'Error' : Math.round(a) / Math.round(b);
+    }
+    return 0;
+  },
+};
 
-export function createUser() {
-  return Promise.resolve({
-    firstName: 'Guillaume',
-    lastName: 'Salva',
-  });
-}
+module.exports = Utils;
